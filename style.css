@@ -1,0 +1,64 @@
+body{
+    width: 100vw;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    text-align: center;
+}
+img{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 15px;
+    border: 5px solid lightblue;
+}
+#randomDogos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#randomDogos article{
+    display: grid;
+    place-content: center;
+    
+   
+}
+#recargar{
+    margin-top: 10px;
+    opacity: 0.7;
+    background-color: darkblue;
+    width: 125px;
+    height: 50px;
+    border: none;
+    color: white;
+    border-radius: 15px;
+}
+#favoritesDogo article{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#favoritesDogo {
+    text-align: center;
+}
+     
+#btn1, #btn2 , button{
+   
+    place-self: center;
+    opacity: 0.7;
+    background-color: darkblue;
+    width: 125px;
+    height: 50px;
+    border: none;
+    color: white;
+    border-radius: 15px;
+}

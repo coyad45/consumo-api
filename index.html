@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Perritos aleatorios</title>
+</head>
+<body>
+    <h1>Dogo App</h1>
+
+    <span id="error"></span>
+    <br>
+    <h1>Dogo aleatorio</h1>
+    <section id="randomDogos">
+        <article>
+            <img id = "img1" alt="foto aleatoria de perritos">
+            <button id="btn1" onclick="saveFavouriteDogo()">Guardar Dogo en favoritos</button>
+        </article>
+
+        <article>
+            <img id = "img2" alt="foto aleatoria de perritos">
+            <button id="btn2" onclick="saveFavouriteDogo()">Guardar Dogo en favoritos</button>
+        </article>
+        
+    
+    </section>
+    <button id="recargar" onclick="loadRamdonDogos()">Random Dogo</button>
+
+    <section id="uploadingDogo">
+        <h2>Sube la foto de tu dogo</h2>
+        <form action="" id="uploadForm">
+            <input type="file" id="file" name="file">
+            <input type="button" value="subir foto de michi" onclick="uploadDogoPhoto()">
+        </form>
+    </section>
+    
+    <section id="favoritesDogo">
+        <h2>Dogo favorito</h2>
+        <article>
+            <img id = "img1" alt="foto aleatoria de perritos">
+            <button>sacar dogo</button>
+        </article>
+    </section>
+    
+
+    <script src="main.js"></script>
+</body>
+</html>
